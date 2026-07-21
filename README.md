@@ -56,6 +56,7 @@ The workflow follows a 3-tier staging architecture:
 - Used REGEXP patterns to isolate non-numeric garbage data and convert them to `NULL`.
 - Identified and **deleted 58 unrecoverable rows** where 2 or more financial metrics (`quantity`, `price_per_unit`, `total_spent`) were simultaneously missing.
 - Reconstructed remaining single missing values algebraically:
+  
 $$\text{Quantity} = \frac{\text{Total Spent}}{\text{Price Per Unit}}$$
 
 $$\text{Price Per Unit} = \frac{\text{Total Spent}}{\text{Quantity}}$$
