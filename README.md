@@ -99,14 +99,6 @@ Both dataset versions feature analytical query suites executing key performance 
 └── README.md                    # Project documentation
 ```
 
-##  Technologies & Tools Used
-
-* **Database / Engine:** MySQL 8.0
-* **SQL Techniques & Concepts:**
-  * **Data Cleaning & Manipulation:** Common Table Expressions (CTEs), Regular Expressions (`REGEXP`), Conditional Statements (`CASE WHEN`), String Trimming & Standardisation
-  * **Advanced Analytics:** Window Functions (`RANK() OVER ()`, `LAG() OVER ()`), Hierarchical Aggregations (`WITH ROLLUP`), Pivot Tables & Cross-Tabulation
-  * **Data Integrity:** Schema Enforcements (`ENUM`, `DATE`, `NOT NULL`, `PRIMARY KEY AUTO_INCREMENT`), Mode Imputation
-
 ---
 
 ##  Key Takeaways & Impact
